@@ -1,0 +1,63 @@
+/* DESAFIO LAYOUT DE SITE */
+
+.body-style {
+    margin: 10px;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#head {
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+#nav-menu {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
+
+/* (Display: Flex) / (frex-wrap: wrap) tb podem ser usados pra ajustar as div na pagina 
+    flex usado em containers
+*/
+
+#container {
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.box {
+    background-color: lightgray;
+    display: inline-block;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#box-1 {
+    text-align: center vertical;
+    width: 23%;
+    border: 5px solid white;
+}
+
+#box-2 {
+    text-align: center;
+    width: 50%;
+    border: 5px solid white;
+}
+
+#box-3 {
+    text-align: center;
+    width: 23%;
+    border: 5px solid white;
+}
+
+#footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+    
+}

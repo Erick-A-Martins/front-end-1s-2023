@@ -1,0 +1,35 @@
+/* Css */
+
+.container {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.text {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.galeria-1 {
+    background-color: rgb(85, 244, 128);
+    width: 40%;
+    height: 400px;
+    border: 5px solid white;
+}
+
+.galeria-2 {
+    background-color: rgb(107, 238, 249);
+    width: 40%;
+    height: 400px;
+    border: 5px solid white;
+}
+
+.images {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+}

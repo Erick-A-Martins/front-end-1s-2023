@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <h2>Marcação de Consultas <span style="color: aqua;">CONSUTOP</span></h2>
+        <h4>Dados Pessoais</h4>
+
+        <form action="">
+            <label for="nome_completo"> Nome Completo: </label> <br>
+            <input type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu Nome"> <br>
+
+            <label for="CPF"> CPF: </label> <br>
+            <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF"> <br>
+
+            <label for="Data_de_Nascimento"> Data de Nascimento: </label> <br>
+            <input type="date" id="data_de_nascimento" name="data_de_nascimento"> <br>
+
+            <label for="Endereço"> Endereço: </label> <br>
+            <input type="text" id="endereco" name="endereco" placeholder="Informe seu Endereço"> <br>
+
+            <label for="CEP"> CEP: </label> <br>
+            <input type="number" id="cep" name="cep" placeholder="Digite seu CEP"> <br>
+
+            <label for="E-mail"> E-mail: </label>  <br>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail"> <br>
+            
+            <label for="Telefone"> Telefone: </label> <br>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </form>
+
+        <h4>Dados de Consulta</h4>
+
+        <form action="">
+            <select name="especialidade" id="especialidade">
+                <option value=""></option>
+                <option value="cardiologia">cardiologia</option>
+                <option value="fisioterapia">fisioterapia</option>
+                <option value="ortopedia">ortopedia</option>
+                <option value="psiquiatria">psiquiatria</option>
+                <option value="oftalmologia">oftalmologia</option>
+            </select>
+            <br>
+            <input type="datetime-local">
+
+            <h4> Precisa de medicamentos? </h4>
+            <input type="radio" id="sim" name="escolha" value="sim">
+            <label for="sim"> sim </label>
+            <input type="radio" id="nao" name="escolha" value="nao">
+            <label for="nao">não</label> <br> <br>
+
+            <h5> Selecione os remédios </h5>
+
+            <input type="checkbox" id="antibioticos" name="antibioticos"> 
+            <label for=" antibioticos"> Antibióticos </label> <br>
+
+            <input type="checkbox" id="anti_inflamatorios" name="anti_inflamatorios"> 
+            <label for="anti_inflamatorios"> Anti-inflamatórios </label> <br>
+
+            <input type="checkbox" id="relaxantes_musculares" name="relaxantes_musculares"> 
+            <label for="relaxantes_musculares"> Relaxantes musculares </label> <br>
+
+            <input type="checkbox" id="anticonvulsivantes" name="anticonvulsivantes"> 
+            <label for="anticonvulsivantes"> Anticonvulsivantes </label> <br>
+
+            <input type="checkbox" id="descongestionantes" name="descongestionantes"> 
+            <label for="descongestionantes"> Descongestionantes </label> <br>
+
+            <h4> Informações Adicionais:</h4>
+
+            <textarea name="informacoes" id="informacoes" cols="60" rows="15" placeholder="Insira aqui suas inforções adicionais" style="resize: none;"></textarea>
+
+        </form>
+
+
+
+
+    </body>
+</html>

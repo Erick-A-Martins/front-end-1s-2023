@@ -1,0 +1,23 @@
+/* CSS */
+
+.menu {
+    font-family: sans-serif;
+    border: 5px solid greenyellow;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightgreen;
+}
+
+.info {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.color-f {
+    color: black;
+}
