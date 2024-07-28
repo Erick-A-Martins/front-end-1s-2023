@@ -1,4 +1,4 @@
-# Atividades da disciplina Desenvolvimento Front-End
+# Desenvolvimento Front-End 1º/2023
 Este repositório contém um aglomerado de atividades realizadas durante a disciplina de Desenvolvimento Front-End do curso de Ciência da Computação no primeiro semestre de 2023. O objetivo dessas atividades foi praticar e demonstrar habilidades essenciais em HTML, CSS e Bootstrap, abrangendo diversos aspectos do desenvolvimento front-end.
 
 ## Atividades e conceitos realizados:
